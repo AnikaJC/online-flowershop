@@ -84,10 +84,41 @@ font-weight: 400;
 .latest-deal input[type ="email"]{
     display: block;
     margin-bottom:25px;
+    margin-left: 500px;
     padding: 18px 35px;
     color: #757575;
     border-radius: 5px;
     background:  #FFF;
     border:0;
-    width: 50%;
+    width: 30%;
+}
+.pink{
+    color: #E55473;
+}
+footer {
+    gap:120px;
+    background: #111010;
+    text-align: center;
+    margin-top: 110px;
+    padding: 130px 200px;
+}
+.footer-title{
+  color: white;  
+font-size: 48px;
+font-weight: 800;
+
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 400;
+  
+}
+.footer-reserved{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+
 }
