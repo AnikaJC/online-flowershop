@@ -61,3 +61,33 @@ main{
 .hot-deal .red {
     width: 500px;
 }
+.latest-deal{
+    margin-top: 100px;
+    border-radius: 8px;
+    background-image: url('../Flower-Asset/Rectangle\ 9.png');
+    
+}
+.latest-deal-title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+
+}
+.latest-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+
+}
+.latest-deal input[type ="email"]{
+    display: block;
+    margin-bottom:25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:  #FFF;
+    border:0;
+    width: 50%;
+}
