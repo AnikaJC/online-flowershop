@@ -16,7 +16,8 @@ body {
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;  
-   
+   align-items: center;
+   justify-content: space-between;
     
    
 }
@@ -36,4 +37,27 @@ body {
     font-size: 18px;
     font-weight: 400;
    
+}
+main{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+    text-align: center;
+}
+
+.hot-deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding:100px 30px 0px 150px;
+   
+
+}
+.hot-deal-description{
+    display: flex;
+    flex-direction: column;
+
+}
+.hot-deal .red {
+    width: 500px;
 }
